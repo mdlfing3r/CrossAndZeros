@@ -34,7 +34,7 @@ private:
 
     void addFonts();
 
-
+    int field_set(int field[3][3]);
 
     bool changed_side;
 };

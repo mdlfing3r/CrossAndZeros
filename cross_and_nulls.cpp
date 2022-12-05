@@ -28,9 +28,14 @@ void Cross_and_nulls::addFonts()
 
 }
 
-int Cross_and_nulls::field_set()
+int Cross_and_nulls::field_setPosition(int field, )
 {
+ switch(field):
+         case 0: //field 1_1
 
+
+
+ return
 }
 
 void Cross_and_nulls::setInterfaceStyle()
