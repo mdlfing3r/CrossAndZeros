@@ -1,0 +1,23 @@
+# ninja log v5
+19	1110	6919499258425629	Cross_and_Null_autogen/timestamp	b80bee117d98d972
+19	1110	6919499258425629	Cross_and_Null_autogen/mocs_compilation.cpp	b80bee117d98d972
+5011	5420	6919499304199647	Cross_and_Null.exe	97a317a5bf7c2fa2
+1115	4575	6919499295818339	CMakeFiles/Cross_and_Null.dir/main.cpp.obj	5cc8bccb7fb1dc18
+19	1110	6919499258425629	D:/QT folder/Cross_and_Null/_build/Cross_and_Null_autogen/timestamp	b80bee117d98d972
+19	1110	6919499258425629	D:/QT folder/Cross_and_Null/_build/Cross_and_Null_autogen/mocs_compilation.cpp	b80bee117d98d972
+1110	4580	6919499295868343	CMakeFiles/Cross_and_Null.dir/Cross_and_Null_autogen/mocs_compilation.cpp.obj	78be41cd28d67bf7
+1119	5010	6919499300153315	CMakeFiles/Cross_and_Null.dir/cross_and_nulls.cpp.obj	8d08bd5c2cd9f36e
+4	1186	6917883958519555	build.ninja	c4d75420e2498334
+367	479	6917045319797543	Cross_and_Null_autogen/EWIEGA46WW/qrc_resources.cpp	9d141c4a30f6c0d4
+367	479	6917045319797543	D:/QT folder/Cross_and_Null/_build/Cross_and_Null_autogen/EWIEGA46WW/qrc_resources.cpp	9d141c4a30f6c0d4
+414	1443	6917047060724719	CMakeFiles/Cross_and_Null.dir/Cross_and_Null_autogen/EWIEGA46WW/qrc_resources.cpp.obj	2233b242c39027cb
+410	2200	6919498418188695	CMakeFiles/Cross_and_Null.dir/style_resources.cpp.obj	3225bc3d7886ce36
+457	2255	6917866497994577	CMakeFiles/Cross_and_Null.dir/anotherstylechanger.cpp.obj	57c3fa7cc598a098
+38	2970	6919563313482807	Cross_and_Null_autogen/timestamp	b80bee117d98d972
+38	2970	6919563313482807	Cross_and_Null_autogen/mocs_compilation.cpp	b80bee117d98d972
+38	2970	6919563313482807	D:/QT folder/Cross_and_Null/_build/Cross_and_Null_autogen/timestamp	b80bee117d98d972
+38	2970	6919563313482807	D:/QT folder/Cross_and_Null/_build/Cross_and_Null_autogen/mocs_compilation.cpp	b80bee117d98d972
+2978	11039	6919563400540164	CMakeFiles/Cross_and_Null.dir/main.cpp.obj	5cc8bccb7fb1dc18
+2971	11808	6919563408280752	CMakeFiles/Cross_and_Null.dir/Cross_and_Null_autogen/mocs_compilation.cpp.obj	78be41cd28d67bf7
+2985	11951	6919563409680859	CMakeFiles/Cross_and_Null.dir/cross_and_nulls.cpp.obj	8d08bd5c2cd9f36e
+11952	12609	6919563416198599	Cross_and_Null.exe	97a317a5bf7c2fa2

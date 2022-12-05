@@ -1,0 +1,9 @@
+D:/QT folder/Cross_and_Null/_build/CMakeFiles/Cross_and_Null.dir
+D:/QT folder/Cross_and_Null/_build/CMakeFiles/edit_cache.dir
+D:/QT folder/Cross_and_Null/_build/CMakeFiles/rebuild_cache.dir
+D:/QT folder/Cross_and_Null/_build/CMakeFiles/list_install_components.dir
+D:/QT folder/Cross_and_Null/_build/CMakeFiles/install.dir
+D:/QT folder/Cross_and_Null/_build/CMakeFiles/install/local.dir
+D:/QT folder/Cross_and_Null/_build/CMakeFiles/install/strip.dir
+D:/QT folder/Cross_and_Null/_build/CMakeFiles/Cross_and_Null_autogen_timestamp_deps.dir
+D:/QT folder/Cross_and_Null/_build/CMakeFiles/Cross_and_Null_autogen.dir

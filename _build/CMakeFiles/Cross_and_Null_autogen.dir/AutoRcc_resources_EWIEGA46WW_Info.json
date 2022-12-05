@@ -1,0 +1,30 @@
+{
+	"BUILD_DIR" : "D:/QT folder/Cross_and_Null/_build/Cross_and_Null_autogen",
+	"CMAKE_BINARY_DIR" : "D:/QT folder/Cross_and_Null/_build",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/QT folder/Cross_and_Null/_build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/QT folder/Cross_and_Null",
+	"CMAKE_SOURCE_DIR" : "D:/QT folder/Cross_and_Null",
+	"INCLUDE_DIR" : "D:/QT folder/Cross_and_Null/_build/Cross_and_Null_autogen/include",
+	"INPUTS" : 
+	[
+		"D:/QT folder/Cross_and_Null/resources/fonts/Roboto-MediumItalic.ttf",
+		"D:/QT folder/Cross_and_Null/resources/fonts/Roboto-Medium.ttf",
+		"D:/QT folder/Cross_and_Null/resources/images/cross_large.png",
+		"D:/QT folder/Cross_and_Null/resources/images/title_ico.png",
+		"D:/QT folder/Cross_and_Null/resources/images/zero_large.png",
+		"D:/QT folder/Cross_and_Null/resources/images/name.png",
+		"D:/QT folder/Cross_and_Null/resources/images/zero_small.png",
+		"D:/QT folder/Cross_and_Null/resources/images/bg.png",
+		"D:/QT folder/Cross_and_Null/resources/images/cross_small.png"
+	],
+	"LOCK_FILE" : "D:/QT folder/Cross_and_Null/_build/CMakeFiles/Cross_and_Null_autogen.dir/AutoRcc_resources_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "resources" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_resources.cpp",
+	"RCC_EXECUTABLE" : "C:/Qt/6.2.4/mingw_64/./bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "D:/QT folder/Cross_and_Null/_build/CMakeFiles/Cross_and_Null_autogen.dir/AutoRcc_resources_EWIEGA46WW_Used.txt",
+	"SOURCE" : "D:/QT folder/Cross_and_Null/resources.qrc",
+	"VERBOSITY" : 0
+}
