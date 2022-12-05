@@ -26,6 +26,10 @@ private slots:
     void on_Button_selectSide_Left_clicked(bool checked);
 
 
+    void on_GameButton_1_1_clicked();
+
+    void on_GameButton_1_1_clicked(bool checked);
+
 private:
     Ui::Cross_and_nulls *ui;
     void setInterfaceStyle();
@@ -35,10 +39,10 @@ private:
     void addFonts();
 
     int GameArea[3][3] = {{0, 0, 0},
-                       {0, 0, 0},
-                       {0, 0, 0}
+                         {0, 0, 0},
+                         {0, 0, 0}
                       };
-    int field_setPosition(int field[3][3]);
+    int progress = 0;
 
     bool changed_side;
 };
