@@ -73,7 +73,7 @@ public:
                "border: 1px solid #333;"
                "background-position: center center;}"
 
-               "QPushButton::hover{background: #596774; background-image: url(:/resources/images/cross_small.png);"
+               "QPushButton::hover{background: #5c6a77; background-image: url(:/resources/images/cross_small.png);"
                "background-repeat:no-repeat;"
                "background-position: center center;}";
 
@@ -94,7 +94,7 @@ public:
                "border: 1px solid #333;"
                "background-position: center center;}"
 
-                "QPushButton::hover{background: #28303f; background-image: url(:/resources/images/cross_small.png);"
+                "QPushButton::hover{background: #2b3342; background-image: url(:/resources/images/cross_small.png);"
                 "background-repeat:no-repeat;"
                 "background-position: center center;}";
     }
@@ -115,7 +115,7 @@ public:
                "border-left: none;"
                "background-position: center center;}"
 
-               "QPushButton::hover{background: #596774; background-image: url(:/resources/images/zero_small.png);"
+               "QPushButton::hover{background: #5c6a77; background-image: url(:/resources/images/zero_small.png);"
                "background-repeat:no-repeat;"
                "background-position: center center;}";
     }
@@ -136,7 +136,7 @@ public:
                "border-left: none;"
                "background-position: center center;}"
 
-               "QPushButton::hover{background: #28303f; background-image: url(:/resources/images/zero_small.png);"
+               "QPushButton::hover{background: #2b3342; background-image: url(:/resources/images/zero_small.png);"
                "background-repeat:no-repeat;"
                "background-position: center center;}";
     }

@@ -28,14 +28,16 @@ void Cross_and_nulls::addFonts()
 
 }
 
-int Cross_and_nulls::field_setPosition(int field, )
+int Cross_and_nulls::field_setPosition(int field[3][3] )
 {
- switch(field):
-         case 0: //field 1_1
 
+    int Total[3][3] = {{0, 0, 0},
+                       {0, 0, 0},
+                       {0, 0, 0}
+                      };
+    //int tot[3][3] = field[3][3];
 
-
- return
+ return 0;
 }
 
 void Cross_and_nulls::setInterfaceStyle()
@@ -69,7 +71,7 @@ void Cross_and_nulls::setInterfaceStyle()
     ui->GameButton_3_3->setStyleSheet(style_resources::GetStyle_Zeroes_Button_regular());
 */
 
-    ui->Label_result->setStyleSheet(style_resources::GetLoose_Mesage());
+    ui->Label_result->setStyleSheet(style_resources::GetNormal_Message());
     ui->Label_result->setText("Ходят они");
 
 }
@@ -111,5 +113,88 @@ void Cross_and_nulls::on_Button_about_clicked()
 {
     ui->tabWidget->setCurrentIndex(1);
 }
+
+
+class ButtonHandler
+{
+public:
+        ButtonHandler()
+        {
+            bool side;
+
+        }
+
+};
+
+/*
+case 0:   //field 1_1
+
+          break;
+
+case 1:
+          break;
+
+case 2:
+          break;
+
+case 3:
+          break;
+
+case 4:
+          break;
+
+case 5:
+          break;
+
+case 6:
+          break;
+
+case 7:
+          break;
+
+case 8:
+          break;
+
+case 9:
+          break;
+
+case 10:
+          break;
+
+case 11:
+          break;
+
+case 12:
+          break;
+
+case 13:
+          break;
+
+case 14:
+          break;
+
+case 15:
+          break;
+
+case 16:
+          break;
+
+case 17:
+          break;
+
+case 18:
+          break;
+
+case 19:
+          break;
+
+*/
+
+void Cross_and_nulls::on_GameButton_1_1_clicked()
+{
+    ButtonHandler button_1_1;
+}
+
+
 
 

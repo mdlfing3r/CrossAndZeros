@@ -34,7 +34,11 @@ private:
 
     void addFonts();
 
-    int field_set(int field[3][3]);
+    int GameArea[3][3] = {{0, 0, 0},
+                       {0, 0, 0},
+                       {0, 0, 0}
+                      };
+    int field_setPosition(int field[3][3]);
 
     bool changed_side;
 };
