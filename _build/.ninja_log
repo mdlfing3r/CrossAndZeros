@@ -1,89 +1,21 @@
 # ninja log v5
-19	1110	6919499258425629	Cross_and_Null_autogen/timestamp	b80bee117d98d972
-19	1110	6919499258425629	Cross_and_Null_autogen/mocs_compilation.cpp	b80bee117d98d972
-5011	5420	6919499304199647	Cross_and_Null.exe	97a317a5bf7c2fa2
-1115	4575	6919499295818339	CMakeFiles/Cross_and_Null.dir/main.cpp.obj	5cc8bccb7fb1dc18
-19	1110	6919499258425629	D:/QT folder/Cross_and_Null/_build/Cross_and_Null_autogen/timestamp	b80bee117d98d972
-19	1110	6919499258425629	D:/QT folder/Cross_and_Null/_build/Cross_and_Null_autogen/mocs_compilation.cpp	b80bee117d98d972
-1110	4580	6919499295868343	CMakeFiles/Cross_and_Null.dir/Cross_and_Null_autogen/mocs_compilation.cpp.obj	78be41cd28d67bf7
-1119	5010	6919499300153315	CMakeFiles/Cross_and_Null.dir/cross_and_nulls.cpp.obj	8d08bd5c2cd9f36e
+19	411	6920207913459471	Cross_and_Null_autogen/timestamp	b80bee117d98d972
+19	411	6920207913459471	Cross_and_Null_autogen/mocs_compilation.cpp	b80bee117d98d972
+3722	4017	6920207949486088	Cross_and_Null.exe	97a317a5bf7c2fa2
+1304	5115	6920207756547479	CMakeFiles/Cross_and_Null.dir/main.cpp.obj	5cc8bccb7fb1dc18
+19	411	6920207913459471	D:/QT folder/Cross_and_Null/_build/Cross_and_Null_autogen/timestamp	b80bee117d98d972
+19	411	6920207913459471	D:/QT folder/Cross_and_Null/_build/Cross_and_Null_autogen/mocs_compilation.cpp	b80bee117d98d972
+1299	5043	6920207755827434	CMakeFiles/Cross_and_Null.dir/Cross_and_Null_autogen/mocs_compilation.cpp.obj	78be41cd28d67bf7
+426	3721	6920207946587931	CMakeFiles/Cross_and_Null.dir/cross_and_nulls.cpp.obj	8d08bd5c2cd9f36e
 4	1186	6917883958519555	build.ninja	c4d75420e2498334
 367	479	6917045319797543	Cross_and_Null_autogen/EWIEGA46WW/qrc_resources.cpp	9d141c4a30f6c0d4
 367	479	6917045319797543	D:/QT folder/Cross_and_Null/_build/Cross_and_Null_autogen/EWIEGA46WW/qrc_resources.cpp	9d141c4a30f6c0d4
 414	1443	6917047060724719	CMakeFiles/Cross_and_Null.dir/Cross_and_Null_autogen/EWIEGA46WW/qrc_resources.cpp.obj	2233b242c39027cb
-410	2200	6919498418188695	CMakeFiles/Cross_and_Null.dir/style_resources.cpp.obj	3225bc3d7886ce36
+467	2444	6920205290988749	CMakeFiles/Cross_and_Null.dir/style_resources.cpp.obj	3225bc3d7886ce36
 457	2255	6917866497994577	CMakeFiles/Cross_and_Null.dir/anotherstylechanger.cpp.obj	57c3fa7cc598a098
-38	2970	6919563313482807	Cross_and_Null_autogen/timestamp	b80bee117d98d972
-38	2970	6919563313482807	Cross_and_Null_autogen/mocs_compilation.cpp	b80bee117d98d972
-38	2970	6919563313482807	D:/QT folder/Cross_and_Null/_build/Cross_and_Null_autogen/timestamp	b80bee117d98d972
-38	2970	6919563313482807	D:/QT folder/Cross_and_Null/_build/Cross_and_Null_autogen/mocs_compilation.cpp	b80bee117d98d972
-2978	11039	6919563400540164	CMakeFiles/Cross_and_Null.dir/main.cpp.obj	5cc8bccb7fb1dc18
-2971	11808	6919563408280752	CMakeFiles/Cross_and_Null.dir/Cross_and_Null_autogen/mocs_compilation.cpp.obj	78be41cd28d67bf7
-2985	11951	6919563409680859	CMakeFiles/Cross_and_Null.dir/cross_and_nulls.cpp.obj	8d08bd5c2cd9f36e
-11952	12609	6919563416198599	Cross_and_Null.exe	97a317a5bf7c2fa2
-10	888	6919673339810123	Cross_and_Null_autogen/timestamp	b80bee117d98d972
-10	888	6919673339810123	Cross_and_Null_autogen/mocs_compilation.cpp	b80bee117d98d972
-10	888	6919673339810123	D:/QT folder/Cross_and_Null/_build/Cross_and_Null_autogen/timestamp	b80bee117d98d972
-10	888	6919673339810123	D:/QT folder/Cross_and_Null/_build/Cross_and_Null_autogen/mocs_compilation.cpp	b80bee117d98d972
-889	4392	6919673376859632	CMakeFiles/Cross_and_Null.dir/main.cpp.obj	5cc8bccb7fb1dc18
-892	4407	6919673377019654	CMakeFiles/Cross_and_Null.dir/Cross_and_Null_autogen/mocs_compilation.cpp.obj	78be41cd28d67bf7
-25	2240	6919706170170055	Cross_and_Null_autogen/timestamp	b80bee117d98d972
-25	2240	6919706170170055	Cross_and_Null_autogen/mocs_compilation.cpp	b80bee117d98d972
-25	2240	6919706170170055	D:/QT folder/Cross_and_Null/_build/Cross_and_Null_autogen/timestamp	b80bee117d98d972
-25	2240	6919706170170055	D:/QT folder/Cross_and_Null/_build/Cross_and_Null_autogen/mocs_compilation.cpp	b80bee117d98d972
-2241	10543	6919706258812981	CMakeFiles/Cross_and_Null.dir/main.cpp.obj	5cc8bccb7fb1dc18
-2249	11159	6919706264985494	CMakeFiles/Cross_and_Null.dir/Cross_and_Null_autogen/mocs_compilation.cpp.obj	78be41cd28d67bf7
-2259	11386	6919706267210960	CMakeFiles/Cross_and_Null.dir/cross_and_nulls.cpp.obj	8d08bd5c2cd9f36e
-11387	12079	6919706273998041	Cross_and_Null.exe	97a317a5bf7c2fa2
-39	796	6919707222311472	Cross_and_Null_autogen/timestamp	b80bee117d98d972
-39	796	6919707222311472	Cross_and_Null_autogen/mocs_compilation.cpp	b80bee117d98d972
-39	796	6919707222311472	D:/QT folder/Cross_and_Null/_build/Cross_and_Null_autogen/timestamp	b80bee117d98d972
-39	796	6919707222311472	D:/QT folder/Cross_and_Null/_build/Cross_and_Null_autogen/mocs_compilation.cpp	b80bee117d98d972
-843	4335	6919707257734625	CMakeFiles/Cross_and_Null.dir/style_resources.cpp.obj	3225bc3d7886ce36
-833	8245	6919707296778531	CMakeFiles/Cross_and_Null.dir/cross_and_nulls.cpp.obj	8d08bd5c2cd9f36e
-8246	8843	6919707302667636	Cross_and_Null.exe	97a317a5bf7c2fa2
-22	746	6919708994826638	Cross_and_Null_autogen/timestamp	b80bee117d98d972
-22	746	6919708994826638	Cross_and_Null_autogen/mocs_compilation.cpp	b80bee117d98d972
-22	746	6919708994826638	D:/QT folder/Cross_and_Null/_build/Cross_and_Null_autogen/timestamp	b80bee117d98d972
-22	746	6919708994826638	D:/QT folder/Cross_and_Null/_build/Cross_and_Null_autogen/mocs_compilation.cpp	b80bee117d98d972
-789	4307	6919709030479177	CMakeFiles/Cross_and_Null.dir/style_resources.cpp.obj	3225bc3d7886ce36
-781	8032	6919709067716227	CMakeFiles/Cross_and_Null.dir/cross_and_nulls.cpp.obj	8d08bd5c2cd9f36e
-8033	8603	6919709073264931	Cross_and_Null.exe	97a317a5bf7c2fa2
-44	851	6919716676192382	Cross_and_Null_autogen/timestamp	b80bee117d98d972
-44	851	6919716676192382	Cross_and_Null_autogen/mocs_compilation.cpp	b80bee117d98d972
-44	851	6919716676192382	D:/QT folder/Cross_and_Null/_build/Cross_and_Null_autogen/timestamp	b80bee117d98d972
-44	851	6919716676192382	D:/QT folder/Cross_and_Null/_build/Cross_and_Null_autogen/mocs_compilation.cpp	b80bee117d98d972
-881	8308	6919716750737381	CMakeFiles/Cross_and_Null.dir/cross_and_nulls.cpp.obj	8d08bd5c2cd9f36e
-8309	8901	6919716756556581	Cross_and_Null.exe	97a317a5bf7c2fa2
-12	1151	6919766434436247	Cross_and_Null_autogen/timestamp	b80bee117d98d972
-12	1151	6919766434436247	Cross_and_Null_autogen/mocs_compilation.cpp	b80bee117d98d972
-12	1151	6919766434436247	D:/QT folder/Cross_and_Null/_build/Cross_and_Null_autogen/timestamp	b80bee117d98d972
-12	1151	6919766434436247	D:/QT folder/Cross_and_Null/_build/Cross_and_Null_autogen/mocs_compilation.cpp	b80bee117d98d972
-1152	4658	6919766472251383	CMakeFiles/Cross_and_Null.dir/Cross_and_Null_autogen/mocs_compilation.cpp.obj	78be41cd28d67bf7
-1156	4716	6919766472827339	CMakeFiles/Cross_and_Null.dir/main.cpp.obj	5cc8bccb7fb1dc18
-1161	5194	6919766477560877	CMakeFiles/Cross_and_Null.dir/cross_and_nulls.cpp.obj	8d08bd5c2cd9f36e
-5194	5526	6919766480863453	Cross_and_Null.exe	97a317a5bf7c2fa2
-21	590	6919768586364399	Cross_and_Null_autogen/timestamp	b80bee117d98d972
-21	590	6919768586364399	Cross_and_Null_autogen/mocs_compilation.cpp	b80bee117d98d972
-21	590	6919768586364399	D:/QT folder/Cross_and_Null/_build/Cross_and_Null_autogen/timestamp	b80bee117d98d972
-21	590	6919768586364399	D:/QT folder/Cross_and_Null/_build/Cross_and_Null_autogen/mocs_compilation.cpp	b80bee117d98d972
-17	407	6919768949391237	Cross_and_Null_autogen/timestamp	b80bee117d98d972
-17	407	6919768949391237	Cross_and_Null_autogen/mocs_compilation.cpp	b80bee117d98d972
-17	407	6919768949391237	D:/QT folder/Cross_and_Null/_build/Cross_and_Null_autogen/timestamp	b80bee117d98d972
-17	407	6919768949391237	D:/QT folder/Cross_and_Null/_build/Cross_and_Null_autogen/mocs_compilation.cpp	b80bee117d98d972
-423	4409	6919768989399105	CMakeFiles/Cross_and_Null.dir/cross_and_nulls.cpp.obj	8d08bd5c2cd9f36e
-4410	4747	6919768992744302	Cross_and_Null.exe	97a317a5bf7c2fa2
-21	441	6919769138933543	Cross_and_Null_autogen/timestamp	b80bee117d98d972
-21	441	6919769138933543	Cross_and_Null_autogen/mocs_compilation.cpp	b80bee117d98d972
-21	441	6919769138933543	D:/QT folder/Cross_and_Null/_build/Cross_and_Null_autogen/timestamp	b80bee117d98d972
-21	441	6919769138933543	D:/QT folder/Cross_and_Null/_build/Cross_and_Null_autogen/mocs_compilation.cpp	b80bee117d98d972
-457	4486	6919769179362008	CMakeFiles/Cross_and_Null.dir/cross_and_nulls.cpp.obj	8d08bd5c2cd9f36e
-4487	4835	6919769182809129	Cross_and_Null.exe	97a317a5bf7c2fa2
-9	1049	6919771857312075	Cross_and_Null_autogen/timestamp	b80bee117d98d972
-9	1049	6919771857312075	Cross_and_Null_autogen/mocs_compilation.cpp	b80bee117d98d972
-9	1049	6919771857312075	D:/QT folder/Cross_and_Null/_build/Cross_and_Null_autogen/timestamp	b80bee117d98d972
-9	1049	6919771857312075	D:/QT folder/Cross_and_Null/_build/Cross_and_Null_autogen/mocs_compilation.cpp	b80bee117d98d972
-1049	4248	6919771891806149	CMakeFiles/Cross_and_Null.dir/Cross_and_Null_autogen/mocs_compilation.cpp.obj	78be41cd28d67bf7
-1054	4329	6919771892621350	CMakeFiles/Cross_and_Null.dir/main.cpp.obj	5cc8bccb7fb1dc18
-1058	4825	6919771897568070	CMakeFiles/Cross_and_Null.dir/cross_and_nulls.cpp.obj	8d08bd5c2cd9f36e
-4826	5128	6919771900553714	Cross_and_Null.exe	97a317a5bf7c2fa2
+17	407	6920208043566292	Cross_and_Null_autogen/timestamp	b80bee117d98d972
+17	407	6920208043566292	Cross_and_Null_autogen/mocs_compilation.cpp	b80bee117d98d972
+17	407	6920208043566292	D:/QT folder/Cross_and_Null/_build/Cross_and_Null_autogen/timestamp	b80bee117d98d972
+17	407	6920208043566292	D:/QT folder/Cross_and_Null/_build/Cross_and_Null_autogen/mocs_compilation.cpp	b80bee117d98d972
+422	3783	6920208077341036	CMakeFiles/Cross_and_Null.dir/cross_and_nulls.cpp.obj	8d08bd5c2cd9f36e
+3784	4079	6920208080243930	Cross_and_Null.exe	97a317a5bf7c2fa2

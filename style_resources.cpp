@@ -180,6 +180,39 @@ public:
     }
 
 
+    static QString GetStyle_Button(char elem )
+    {
+        QString ans;
+        switch(elem){
+
+            case 'e':  ans = GetStyle_Blank_Button();           //area is empty
+                     break;
+
+            case 'o':  ans = GetStyle_Zeroes_Button_isLooser();  //o - Loose state of O
+                     break;
+
+            case 'O':  ans =GetStyle_Zeroes_Button_regular();  //O - regular state of O
+                     break;
+
+            case '0':  ans =GetStyle_Zeroes_Button_isWinner(); //O - Win state of O
+                     break;
+
+            case 'x':  ans = GetStyle_Crossed_Button_isLooser(); //o - Loose state of x
+                     break;
+
+            case 'X':  ans =GetStyle_Crossed_Button_regular(); //O - regular state of x
+                     break;
+
+            case 'K':  ans =GetStyle_Crossed_Button_isLooser(); //O - Win state of X
+                     break;
+
+
+
+        }
+
+        return ans;
+
+    }
 
     static QString GetStyle_Blank_Button()
     {

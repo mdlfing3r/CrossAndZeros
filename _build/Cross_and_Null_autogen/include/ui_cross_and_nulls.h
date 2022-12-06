@@ -46,15 +46,15 @@ public:
     QTabWidget *tabWidget;
     QWidget *tab;
     QGridLayout *gridLayout;
-    QPushButton *GameButton_1_1;
     QPushButton *GameButton_1_2;
-    QPushButton *GameButton_1_3;
-    QPushButton *GameButton_2_1;
+    QPushButton *GameButton_1_1;
     QPushButton *GameButton_2_2;
-    QPushButton *GameButton_2_3;
-    QPushButton *GameButton_3_1;
-    QPushButton *GameButton_3_2;
-    QPushButton *GameButton_3_3;
+    QPushButton *GameButton_0_2;
+    QPushButton *GameButton_0_1;
+    QPushButton *GameButton_1_0;
+    QPushButton *GameButton_2_1;
+    QPushButton *GameButton_0_0;
+    QPushButton *GameButton_2_0;
     QWidget *tab_2;
     QGridLayout *gridLayout_3;
     QLabel *about_game_text;
@@ -173,44 +173,26 @@ public:
         gridLayout->setSpacing(4);
         gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
         gridLayout->setContentsMargins(4, 4, 4, 4);
-        GameButton_1_1 = new QPushButton(tab);
-        GameButton_1_1->setObjectName(QString::fromUtf8("GameButton_1_1"));
+        GameButton_1_2 = new QPushButton(tab);
+        GameButton_1_2->setObjectName(QString::fromUtf8("GameButton_1_2"));
         QSizePolicy sizePolicy2(QSizePolicy::Fixed, QSizePolicy::Fixed);
         sizePolicy2.setHorizontalStretch(0);
         sizePolicy2.setVerticalStretch(0);
-        sizePolicy2.setHeightForWidth(GameButton_1_1->sizePolicy().hasHeightForWidth());
-        GameButton_1_1->setSizePolicy(sizePolicy2);
-        GameButton_1_1->setMinimumSize(QSize(100, 100));
-        GameButton_1_1->setStyleSheet(QString::fromUtf8(""));
-
-        gridLayout->addWidget(GameButton_1_1, 0, 0, 1, 1);
-
-        GameButton_1_2 = new QPushButton(tab);
-        GameButton_1_2->setObjectName(QString::fromUtf8("GameButton_1_2"));
         sizePolicy2.setHeightForWidth(GameButton_1_2->sizePolicy().hasHeightForWidth());
         GameButton_1_2->setSizePolicy(sizePolicy2);
         GameButton_1_2->setMinimumSize(QSize(100, 100));
         GameButton_1_2->setStyleSheet(QString::fromUtf8(""));
 
-        gridLayout->addWidget(GameButton_1_2, 0, 1, 1, 1);
+        gridLayout->addWidget(GameButton_1_2, 1, 2, 1, 1);
 
-        GameButton_1_3 = new QPushButton(tab);
-        GameButton_1_3->setObjectName(QString::fromUtf8("GameButton_1_3"));
-        sizePolicy2.setHeightForWidth(GameButton_1_3->sizePolicy().hasHeightForWidth());
-        GameButton_1_3->setSizePolicy(sizePolicy2);
-        GameButton_1_3->setMinimumSize(QSize(100, 100));
-        GameButton_1_3->setStyleSheet(QString::fromUtf8(""));
+        GameButton_1_1 = new QPushButton(tab);
+        GameButton_1_1->setObjectName(QString::fromUtf8("GameButton_1_1"));
+        sizePolicy2.setHeightForWidth(GameButton_1_1->sizePolicy().hasHeightForWidth());
+        GameButton_1_1->setSizePolicy(sizePolicy2);
+        GameButton_1_1->setMinimumSize(QSize(100, 100));
+        GameButton_1_1->setStyleSheet(QString::fromUtf8(""));
 
-        gridLayout->addWidget(GameButton_1_3, 0, 2, 1, 1);
-
-        GameButton_2_1 = new QPushButton(tab);
-        GameButton_2_1->setObjectName(QString::fromUtf8("GameButton_2_1"));
-        sizePolicy2.setHeightForWidth(GameButton_2_1->sizePolicy().hasHeightForWidth());
-        GameButton_2_1->setSizePolicy(sizePolicy2);
-        GameButton_2_1->setMinimumSize(QSize(100, 100));
-        GameButton_2_1->setStyleSheet(QString::fromUtf8(""));
-
-        gridLayout->addWidget(GameButton_2_1, 1, 0, 1, 1);
+        gridLayout->addWidget(GameButton_1_1, 1, 1, 1, 1);
 
         GameButton_2_2 = new QPushButton(tab);
         GameButton_2_2->setObjectName(QString::fromUtf8("GameButton_2_2"));
@@ -219,43 +201,61 @@ public:
         GameButton_2_2->setMinimumSize(QSize(100, 100));
         GameButton_2_2->setStyleSheet(QString::fromUtf8(""));
 
-        gridLayout->addWidget(GameButton_2_2, 1, 1, 1, 1);
+        gridLayout->addWidget(GameButton_2_2, 2, 2, 1, 1);
 
-        GameButton_2_3 = new QPushButton(tab);
-        GameButton_2_3->setObjectName(QString::fromUtf8("GameButton_2_3"));
-        sizePolicy2.setHeightForWidth(GameButton_2_3->sizePolicy().hasHeightForWidth());
-        GameButton_2_3->setSizePolicy(sizePolicy2);
-        GameButton_2_3->setMinimumSize(QSize(100, 100));
-        GameButton_2_3->setStyleSheet(QString::fromUtf8(""));
+        GameButton_0_2 = new QPushButton(tab);
+        GameButton_0_2->setObjectName(QString::fromUtf8("GameButton_0_2"));
+        sizePolicy2.setHeightForWidth(GameButton_0_2->sizePolicy().hasHeightForWidth());
+        GameButton_0_2->setSizePolicy(sizePolicy2);
+        GameButton_0_2->setMinimumSize(QSize(100, 100));
+        GameButton_0_2->setStyleSheet(QString::fromUtf8(""));
 
-        gridLayout->addWidget(GameButton_2_3, 1, 2, 1, 1);
+        gridLayout->addWidget(GameButton_0_2, 0, 2, 1, 1);
 
-        GameButton_3_1 = new QPushButton(tab);
-        GameButton_3_1->setObjectName(QString::fromUtf8("GameButton_3_1"));
-        sizePolicy2.setHeightForWidth(GameButton_3_1->sizePolicy().hasHeightForWidth());
-        GameButton_3_1->setSizePolicy(sizePolicy2);
-        GameButton_3_1->setMinimumSize(QSize(100, 100));
-        GameButton_3_1->setStyleSheet(QString::fromUtf8(""));
+        GameButton_0_1 = new QPushButton(tab);
+        GameButton_0_1->setObjectName(QString::fromUtf8("GameButton_0_1"));
+        sizePolicy2.setHeightForWidth(GameButton_0_1->sizePolicy().hasHeightForWidth());
+        GameButton_0_1->setSizePolicy(sizePolicy2);
+        GameButton_0_1->setMinimumSize(QSize(100, 100));
+        GameButton_0_1->setStyleSheet(QString::fromUtf8(""));
 
-        gridLayout->addWidget(GameButton_3_1, 2, 0, 1, 1);
+        gridLayout->addWidget(GameButton_0_1, 0, 1, 1, 1);
 
-        GameButton_3_2 = new QPushButton(tab);
-        GameButton_3_2->setObjectName(QString::fromUtf8("GameButton_3_2"));
-        sizePolicy2.setHeightForWidth(GameButton_3_2->sizePolicy().hasHeightForWidth());
-        GameButton_3_2->setSizePolicy(sizePolicy2);
-        GameButton_3_2->setMinimumSize(QSize(100, 100));
-        GameButton_3_2->setStyleSheet(QString::fromUtf8(""));
+        GameButton_1_0 = new QPushButton(tab);
+        GameButton_1_0->setObjectName(QString::fromUtf8("GameButton_1_0"));
+        sizePolicy2.setHeightForWidth(GameButton_1_0->sizePolicy().hasHeightForWidth());
+        GameButton_1_0->setSizePolicy(sizePolicy2);
+        GameButton_1_0->setMinimumSize(QSize(100, 100));
+        GameButton_1_0->setStyleSheet(QString::fromUtf8(""));
 
-        gridLayout->addWidget(GameButton_3_2, 2, 1, 1, 1);
+        gridLayout->addWidget(GameButton_1_0, 1, 0, 1, 1);
 
-        GameButton_3_3 = new QPushButton(tab);
-        GameButton_3_3->setObjectName(QString::fromUtf8("GameButton_3_3"));
-        sizePolicy2.setHeightForWidth(GameButton_3_3->sizePolicy().hasHeightForWidth());
-        GameButton_3_3->setSizePolicy(sizePolicy2);
-        GameButton_3_3->setMinimumSize(QSize(100, 100));
-        GameButton_3_3->setStyleSheet(QString::fromUtf8(""));
+        GameButton_2_1 = new QPushButton(tab);
+        GameButton_2_1->setObjectName(QString::fromUtf8("GameButton_2_1"));
+        sizePolicy2.setHeightForWidth(GameButton_2_1->sizePolicy().hasHeightForWidth());
+        GameButton_2_1->setSizePolicy(sizePolicy2);
+        GameButton_2_1->setMinimumSize(QSize(100, 100));
+        GameButton_2_1->setStyleSheet(QString::fromUtf8(""));
 
-        gridLayout->addWidget(GameButton_3_3, 2, 2, 1, 1);
+        gridLayout->addWidget(GameButton_2_1, 2, 1, 1, 1);
+
+        GameButton_0_0 = new QPushButton(tab);
+        GameButton_0_0->setObjectName(QString::fromUtf8("GameButton_0_0"));
+        sizePolicy2.setHeightForWidth(GameButton_0_0->sizePolicy().hasHeightForWidth());
+        GameButton_0_0->setSizePolicy(sizePolicy2);
+        GameButton_0_0->setMinimumSize(QSize(100, 100));
+        GameButton_0_0->setStyleSheet(QString::fromUtf8(""));
+
+        gridLayout->addWidget(GameButton_0_0, 0, 0, 1, 1);
+
+        GameButton_2_0 = new QPushButton(tab);
+        GameButton_2_0->setObjectName(QString::fromUtf8("GameButton_2_0"));
+        sizePolicy2.setHeightForWidth(GameButton_2_0->sizePolicy().hasHeightForWidth());
+        GameButton_2_0->setSizePolicy(sizePolicy2);
+        GameButton_2_0->setMinimumSize(QSize(100, 100));
+        GameButton_2_0->setStyleSheet(QString::fromUtf8(""));
+
+        gridLayout->addWidget(GameButton_2_0, 2, 0, 1, 1);
 
         tabWidget->addTab(tab, QString());
         tab_2 = new QWidget();
@@ -296,7 +296,7 @@ public:
 
         retranslateUi(Cross_and_nulls);
 
-        tabWidget->setCurrentIndex(1);
+        tabWidget->setCurrentIndex(0);
 
 
         QMetaObject::connectSlotsByName(Cross_and_nulls);
@@ -311,15 +311,15 @@ public:
         Button_selectSide_Right->setText(QString());
         Button_play->setText(QCoreApplication::translate("Cross_and_nulls", "\320\230\320\263\321\200\320\260\321\202\321\214", nullptr));
         Button_about->setText(QCoreApplication::translate("Cross_and_nulls", "\320\236\320\261 \320\270\320\263\321\200\320\265", nullptr));
-        GameButton_1_1->setText(QString());
         GameButton_1_2->setText(QString());
-        GameButton_1_3->setText(QString());
-        GameButton_2_1->setText(QString());
+        GameButton_1_1->setText(QString());
         GameButton_2_2->setText(QString());
-        GameButton_2_3->setText(QString());
-        GameButton_3_1->setText(QString());
-        GameButton_3_2->setText(QString());
-        GameButton_3_3->setText(QString());
+        GameButton_0_2->setText(QString());
+        GameButton_0_1->setText(QString());
+        GameButton_1_0->setText(QString());
+        GameButton_2_1->setText(QString());
+        GameButton_0_0->setText(QString());
+        GameButton_2_0->setText(QString());
         tabWidget->setTabText(tabWidget->indexOf(tab), QCoreApplication::translate("Cross_and_nulls", "\320\230\320\263\321\200\320\260", nullptr));
         about_game_text->setText(QCoreApplication::translate("Cross_and_nulls", "\320\237\321\200\320\260\320\262\320\270\320\273\320\260 \320\270\320\263\321\200\321\213:                                                     \320\222 \320\264\320\260\320\275\320\275\320\276\320\271 \320\270\320\263\321\200\320\265 \320\265\321\201\321\202\321\214 2 \320\272\320\276\320\274\320\260\320\275\320\264\321\213: \320\272\321\200\320\265\321\201\321\202\320\270\320\272\320\270 \320\270 \320\275\320\276\320\273\320\270\320\272\320\270. \320\241\320\274\321\213\321\201\320\273 \320\262 \321\202\320\276\320\274, \321\207\321\202\320\276\320\261\321\213 \320\276\320\264\320\275\320\260 \320\270\320\267 \320\272\320\276\320\274\320\274\320\260\320\275\320\264 \320\267\320\260\320\275\321\217\320\273\320\260 \321\202\321\200\320\270 \320\277\320\276\320\273\321\217 \320\262 \321\200\321\217\320\264 \320\270\320\273\320\270 \320\262 \320\264\320\270\320\260\320\263\320\276\320\275\320\260\320\273\321\214", nullptr));
         tabWidget->setTabText(tabWidget->indexOf(tab_2), QCoreApplication::translate("Cross_and_nulls", "\320\236\320\261 \320\270\320\263\321\200\320\265", nullptr));

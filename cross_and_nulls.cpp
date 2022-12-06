@@ -28,7 +28,13 @@ void Cross_and_nulls::addFonts()
 
 }
 
-int Cross_and_nulls::field_setPosition(int field[3][3] )
+
+
+
+
+
+
+/*int Cross_and_nulls::field_setPosition(int field[3][3] )
 {
 
     int Total[3][3] = {{0, 0, 0},
@@ -39,6 +45,7 @@ int Cross_and_nulls::field_setPosition(int field[3][3] )
 
  return 0;
 }
+*/
 
 void Cross_and_nulls::setInterfaceStyle()
 {
@@ -55,6 +62,8 @@ void Cross_and_nulls::setInterfaceStyle()
     ui->Button_play->setStyleSheet(style_resources :: GetStyle_playButton() );
     ui->Button_selectSide_Left->setStyleSheet(style_resources :: GetStyle_SideSwitcher_left() );
     ui->Button_selectSide_Right->setStyleSheet(style_resources :: GetStyle_SideSwitcher_right() );
+
+    Cross_and_nulls::SetGameButtonStyle(0, 0, 'O');
 
 
 /*
@@ -115,7 +124,7 @@ void Cross_and_nulls::on_Button_about_clicked()
 }
 
 
-class ButtonHandler
+/*class ButtonHandler
 {
 public:
         ButtonHandler()
@@ -126,75 +135,17 @@ public:
 
 };
 
-/*
-case 0:   //field 1_1
-
-          break;
-
-case 1:
-          break;
-
-case 2:
-          break;
-
-case 3:
-          break;
-
-case 4:
-          break;
-
-case 5:
-          break;
-
-case 6:
-          break;
-
-case 7:
-          break;
-
-case 8:
-          break;
-
-case 9:
-          break;
-
-case 10:
-          break;
-
-case 11:
-          break;
-
-case 12:
-          break;
-
-case 13:
-          break;
-
-case 14:
-          break;
-
-case 15:
-          break;
-
-case 16:
-          break;
-
-case 17:
-          break;
-
-case 18:
-          break;
-
-case 19:
-          break;
-
 */
 
-void Cross_and_nulls::on_GameButton_1_1_clicked()
+void Cross_and_nulls::SetGameButtonStyle(int row, int column, char style)
 {
-    ButtonHandler button_1_1;
+    ui->gridLayout->itemAtPosition(row,column)->widget()->setStyleSheet(style_resources::GetStyle_Button(style));
 }
 
+void Cross_and_nulls::Get_Game_Button_Clicked()
+{
+      QPushButton *btn = qobject_cast<QPushButton*>(sender());
 
+}
 
 
