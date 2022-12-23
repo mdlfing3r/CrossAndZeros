@@ -29,11 +29,6 @@ void Cross_and_nulls::addFonts()
 }
 
 
-
-
-
-
-
 /*int Cross_and_nulls::field_setPosition(int field[3][3] )
 {
 
@@ -63,25 +58,16 @@ void Cross_and_nulls::setInterfaceStyle()
     ui->Button_selectSide_Left->setStyleSheet(style_resources :: GetStyle_SideSwitcher_left() );
     ui->Button_selectSide_Right->setStyleSheet(style_resources :: GetStyle_SideSwitcher_right() );
 
-    Cross_and_nulls::SetGameButtonStyle(0, 0, 'O');
 
 
-/*
-    ui->GameButton_1_1->setStyleSheet(style_resources::GetStyle_Blank_Button());
-    ui->GameButton_1_2->setStyleSheet(style_resources::GetStyle_Crossed_Button_isLooser());
-    ui->GameButton_1_3->setStyleSheet(style_resources::GetStyle_Zeroes_Button_isWinner());
-
-    ui->GameButton_2_1->setStyleSheet(style_resources::GetStyle_Crossed_Button_isLooser());
-    ui->GameButton_2_2->setStyleSheet(style_resources::GetStyle_Zeroes_Button_isWinner());
-    ui->GameButton_2_3->setStyleSheet(style_resources::GetStyle_Crossed_Button_isLooser());
-
-    ui->GameButton_3_1->setStyleSheet(style_resources::GetStyle_Zeroes_Button_isWinner());
-    ui->GameButton_3_2->setStyleSheet(style_resources::GetStyle_Crossed_Button_isLooser());
-    ui->GameButton_3_3->setStyleSheet(style_resources::GetStyle_Zeroes_Button_regular());
-*/
-
+    //Cross_and_nulls::SetGameButtonStyle(1, 0, 'x');
+    //Cross_and_nulls::SetGameButtonStyle(0, 1, 'X');
+    //Cross_and_nulls::SetGameButtonStyle(0, 2, 'o');
+    //Cross_and_nulls::SetGameButtonStyle(1, 2, '0');
     ui->Label_result->setStyleSheet(style_resources::GetNormal_Message());
-    ui->Label_result->setText("Ходят они");
+    ui->Label_result->setText("ЮРА ГЕЙ");
+
+    Cross_and_nulls::Get_Game_Button_Clicked();
 
 }
 
@@ -113,6 +99,11 @@ void Cross_and_nulls::on_Button_selectSide_Left_clicked(bool checked)
 
 }
 
+//void Cross_and_nulls::onGameAreaButtonClicked()
+//{
+
+//}
+
 
 void Cross_and_nulls::on_Button_play_clicked()
 {
@@ -124,18 +115,6 @@ void Cross_and_nulls::on_Button_about_clicked()
 }
 
 
-/*class ButtonHandler
-{
-public:
-        ButtonHandler()
-        {
-            bool side;
-
-        }
-
-};
-
-*/
 
 void Cross_and_nulls::SetGameButtonStyle(int row, int column, char style)
 {
@@ -144,8 +123,33 @@ void Cross_and_nulls::SetGameButtonStyle(int row, int column, char style)
 
 void Cross_and_nulls::Get_Game_Button_Clicked()
 {
-      QPushButton *btn = qobject_cast<QPushButton*>(sender());
+    for(int column = 0; column < 3; column++)
+    {
+        for(int row = 0; row < 3; row++)
+        {
+            QPushButton *btn = qobject_cast<QPushButton*>(ui->gridLayout->itemAtPosition(row,column)->widget());
+            btn -> setProperty("row", row);
+            btn -> setProperty("column", column);
+            //btn->setStyleSheet(style_resources::GetStyle_Button('o'));
+            //connect(sender, SIGNAL, ); ПОЧИТАТЬ ЗА ПОДКЛЮЧЕНИЕ СИГНАЛОВ И СЛОТОВ
+
+        }
+    }
 
 }
 
+
+
+void Cross_and_nulls::on_GameButton_0_0_clicked()
+{
+    //Cross_and_nulls::SetGameButtonStyle(2, 2, 'O');
+    Cross_and_nulls::SetGameButtonStyle(0, 0, 'x');
+   // Cross_and_nulls::SetGameButtonStyle(1, 1, 'k');
+    //Cross_and_nulls::SetGameButtonStyle(2, 2, 'e');
+}
+
+void Cross_and_nulls::onGameAreaButtonClicked()
+{
+
+}
 

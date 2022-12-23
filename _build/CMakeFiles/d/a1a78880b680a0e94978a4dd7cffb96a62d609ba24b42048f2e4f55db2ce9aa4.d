@@ -95,7 +95,9 @@ Cross_and_Null_autogen/timestamp: \
   C:/Qt/6.2.4/mingw_64/include/QtGui/qtransform.h \
   C:/Qt/6.2.4/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.2.4/mingw_64/include/QtGui/qwindowdefs_win.h \
+  C:/Qt/6.2.4/mingw_64/include/QtWidgets/QButtonGroup \
   C:/Qt/6.2.4/mingw_64/include/QtWidgets/QMainWindow \
+  C:/Qt/6.2.4/mingw_64/include/QtWidgets/qbuttongroup.h \
   C:/Qt/6.2.4/mingw_64/include/QtWidgets/qmainwindow.h \
   C:/Qt/6.2.4/mingw_64/include/QtWidgets/qsizepolicy.h \
   C:/Qt/6.2.4/mingw_64/include/QtWidgets/qtabwidget.h \

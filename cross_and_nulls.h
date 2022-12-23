@@ -29,6 +29,9 @@ private slots:
 
 
 
+    void on_GameButton_0_0_clicked();
+    void onGameAreaButtonClicked();
+
 private:
     Ui::Cross_and_nulls *ui;
     void setInterfaceStyle();
@@ -48,5 +51,7 @@ private:
     int progress = 0;
 
     bool changed_side;
+
+
 };
 #endif // CROSS_AND_NULLS_H

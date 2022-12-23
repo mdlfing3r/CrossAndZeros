@@ -99,7 +99,9 @@ D:/QT folder/Cross_and_Null/cross_and_nulls.h
  mdp:C:/Qt/6.2.4/mingw_64/include/QtGui/qtransform.h
  mdp:C:/Qt/6.2.4/mingw_64/include/QtGui/qwindowdefs.h
  mdp:C:/Qt/6.2.4/mingw_64/include/QtGui/qwindowdefs_win.h
+ mdp:C:/Qt/6.2.4/mingw_64/include/QtWidgets/QButtonGroup
  mdp:C:/Qt/6.2.4/mingw_64/include/QtWidgets/QMainWindow
+ mdp:C:/Qt/6.2.4/mingw_64/include/QtWidgets/qbuttongroup.h
  mdp:C:/Qt/6.2.4/mingw_64/include/QtWidgets/qmainwindow.h
  mdp:C:/Qt/6.2.4/mingw_64/include/QtWidgets/qsizepolicy.h
  mdp:C:/Qt/6.2.4/mingw_64/include/QtWidgets/qtabwidget.h
