@@ -5,6 +5,8 @@
 #include <QPainter>  //Для красивости заднего фона (можно не добавлять)
 #include <QButtonGroup>
 
+//QApplication::setAttribute(Qt::AA_Use96Dpi);
+
 QT_BEGIN_NAMESPACE
 namespace Ui { class Cross_and_nulls; }
 QT_END_NAMESPACE
@@ -31,6 +33,7 @@ private slots:
 
     void on_GameButton_0_0_clicked();
     void onGameAreaButtonClicked();
+    void AreaCleaning();
 
 private:
     Ui::Cross_and_nulls *ui;
@@ -42,6 +45,9 @@ private:
 
     void SetGameButtonStyle(int row, int column, char style);
 
+    //void SelectGameButtonStyle(int row, int column, bool side);
+
+
     void Get_Game_Button_Clicked();
 
     int GameArea[3][3] = {{0, 0, 0},
@@ -50,7 +56,7 @@ private:
                       };
     int progress = 0;
 
-    bool changed_side;
+    char current_player_side;
 
 
 };

@@ -101,8 +101,15 @@
           <height>30</height>
          </size>
         </property>
+        <property name="font">
+         <font>
+          <family>Roboto Medium</family>
+         </font>
+        </property>
         <property name="styleSheet">
-         <string notr="true">border-radius:3px;</string>
+         <string notr="true">
+border-radius: 5px;
+</string>
         </property>
         <property name="text">
          <string/>
@@ -235,7 +242,7 @@
        <string notr="true"/>
       </property>
       <property name="currentIndex">
-       <number>0</number>
+       <number>1</number>
       </property>
       <widget class="QWidget" name="tab">
        <property name="sizePolicy">
@@ -493,10 +500,43 @@
 font-size: 15px;</string>
           </property>
           <property name="text">
-           <string>Правила игры:                                                     В данной игре есть 2 команды: крестики и нолики. Смысл в том, чтобы одна из комманд заняла три поля в ряд или в диагональ</string>
+           <string>Правила игры: В данной игре есть 2 команды: крестики и нолики. Смысл в том, чтобы одна из комманд заняла три поля в ряд или в диагональ</string>
+          </property>
+          <property name="textFormat">
+           <enum>Qt::PlainText</enum>
+          </property>
+          <property name="scaledContents">
+           <bool>false</bool>
           </property>
           <property name="alignment">
-           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+           <set>Qt::AlignJustify|Qt::AlignTop</set>
+          </property>
+          <property name="wordWrap">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_3">
+       <attribute name="title">
+        <string>Страница</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="0" column="0">
+         <widget class="QLabel" name="Thx_4_choosing">
+          <property name="styleSheet">
+           <string notr="true">font-family: 'Roboto Medium';
+font-size: 15px;</string>
+          </property>
+          <property name="text">
+           <string>Мы рады, что вы решили открыть это творения господа Аллаха. Надеюсь вам понравится этот симмулятор игры, ибо назвать это игрой может лишь слепой</string>
+          </property>
+          <property name="textFormat">
+           <enum>Qt::PlainText</enum>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
           </property>
           <property name="wordWrap">
            <bool>true</bool>

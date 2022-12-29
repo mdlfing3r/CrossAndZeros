@@ -374,8 +374,8 @@
 				0,
 				1,
 				2,
-				7,
-				10
+				6,
+				9
 			]
 		}
 	],
@@ -494,8 +494,8 @@
 				0,
 				1,
 				2,
-				7,
-				10
+				6,
+				9
 			]
 		},
 		{
@@ -503,8 +503,7 @@
 			"sourceIndexes" : 
 			[
 				3,
-				6,
-				8
+				7
 			]
 		},
 		{
@@ -513,15 +512,15 @@
 			[
 				4,
 				5,
-				9
+				8
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				11,
-				12
+				10,
+				11
 			]
 		}
 	],
@@ -560,11 +559,6 @@
 			"backtrace" : 4,
 			"path" : "resources.qrc",
 			"sourceGroupIndex" : 2
-		},
-		{
-			"backtrace" : 4,
-			"path" : "style_resources.h",
-			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 4,

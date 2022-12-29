@@ -145,12 +145,12 @@ public:
     {
         return "QTabWidget"
                "{"
-               "border:3px solid #222;"
+               "border:1px solid #222;"
                "border-radius: 3px;"
                "}"
                "QTabWidget::pane"
                "{"
-               "border:3px solid #222;"
+               "border:1px solid #222;"
                "border-radius: 3px;"
                "}";
 
@@ -179,40 +179,72 @@ public:
                "}";
     }
 
+    static QString GetStyle_TabWidget_tab3()
+    {
+       return  "QWidget#tab_3"
+               "{"
+               "background: #d1d9e0#d1d9e0;"
+               "}"
 
-    static QString GetStyle_Button(char elem )
+               "QWidget#Thx_4_choosing"
+               "{"
+               "background: #d1d9e0#d1d9e0;"
+               "}";
+    }
+
+    static QString GetStyle_GameState_info()
+    {
+        return
+
+                       "background: #ff34ae;"
+
+                ;
+
+    }
+
+
+    static QString GetStyle_Button(char state, char *side )// r - regular state, w - win state, l - loose state
     {
         QString ans;
-        switch(elem){
+        //side = '0';
 
-            case 'e':  ans = GetStyle_Blank_Button();           //area is empty
-                     break;
+        switch(*side)
+        {
+            case '0':
+                    switch(state)
+                    {
 
-            case 'o':  ans = GetStyle_Zeroes_Button_isLooser();  //o - Loose state of O
-                     break;
+                        case 'r': ans = GetStyle_Zeroes_Button_regular();  //O - regular state of O
+                                  break;
 
-            case 'O':  ans =GetStyle_Zeroes_Button_regular();  //O - regular state of O
-                     break;
+                        case 'w': ans = GetStyle_Zeroes_Button_isWinner(); //O - Win state of O
+                                  break;
 
-            case '0':  ans =GetStyle_Zeroes_Button_isWinner(); //O - Win state of O
-                     break;
+                        case 'l': ans = GetStyle_Zeroes_Button_isLooser();  //o - Loose state of O
+                                  break;
 
-            case 'x':  ans = GetStyle_Crossed_Button_isLooser(); //o - Loose state of x
-                     break;
+                    }
+                    break;
 
-            case 'X':  ans =GetStyle_Crossed_Button_regular(); //O - regular state of x
-                     break;
+            case 'x':
+                    switch(state)
+                    {
+                        case 'r': ans = GetStyle_Zeroes_Button_regular(); //o - Loose state of x
+                                  break;
 
-            case 'K':  ans =GetStyle_Crossed_Button_isLooser(); //O - Win state of X
-                     break;
+                        case 'w': ans =  GetStyle_Crossed_Button_isWinner(); //O - Win state of X
+                                  break;
 
+                        case 'l': ans = GetStyle_Crossed_Button_isLooser(); //o - Loose state of x
+                                  break;
+                    }
+                    break;
 
 
         }
-
         return ans;
-
     }
+
 
     static QString GetStyle_Blank_Button()
     {

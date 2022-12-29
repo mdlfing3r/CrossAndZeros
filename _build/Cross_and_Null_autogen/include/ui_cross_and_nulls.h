@@ -58,6 +58,9 @@ public:
     QWidget *tab_2;
     QGridLayout *gridLayout_3;
     QLabel *about_game_text;
+    QWidget *tab_3;
+    QGridLayout *gridLayout_2;
+    QLabel *Thx_4_choosing;
     QSpacerItem *horizontalSpacer_3;
     QMenuBar *menubar;
     QStatusBar *statusbar;
@@ -104,7 +107,12 @@ public:
         sizePolicy.setHeightForWidth(Label_result->sizePolicy().hasHeightForWidth());
         Label_result->setSizePolicy(sizePolicy);
         Label_result->setMinimumSize(QSize(0, 30));
-        Label_result->setStyleSheet(QString::fromUtf8("border-radius:3px;"));
+        QFont font;
+        font.setFamilies({QString::fromUtf8("Roboto Medium")});
+        Label_result->setFont(font);
+        Label_result->setStyleSheet(QString::fromUtf8("\n"
+"border-radius: 5px;\n"
+""));
         Label_result->setAlignment(Qt::AlignCenter);
 
         verticalLayout->addWidget(Label_result);
@@ -264,20 +272,37 @@ public:
         gridLayout_3->setObjectName(QString::fromUtf8("gridLayout_3"));
         about_game_text = new QLabel(tab_2);
         about_game_text->setObjectName(QString::fromUtf8("about_game_text"));
-        QFont font;
-        font.setFamilies({QString::fromUtf8("Roboto Medium")});
-        font.setBold(false);
-        font.setItalic(false);
-        font.setUnderline(false);
-        about_game_text->setFont(font);
+        QFont font1;
+        font1.setFamilies({QString::fromUtf8("Roboto Medium")});
+        font1.setBold(false);
+        font1.setItalic(false);
+        font1.setUnderline(false);
+        about_game_text->setFont(font1);
         about_game_text->setStyleSheet(QString::fromUtf8("font-family: 'Roboto Medium';\n"
 "font-size: 15px;"));
-        about_game_text->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop);
+        about_game_text->setTextFormat(Qt::PlainText);
+        about_game_text->setScaledContents(false);
+        about_game_text->setAlignment(Qt::AlignJustify|Qt::AlignTop);
         about_game_text->setWordWrap(true);
 
         gridLayout_3->addWidget(about_game_text, 0, 0, 1, 1);
 
         tabWidget->addTab(tab_2, QString());
+        tab_3 = new QWidget();
+        tab_3->setObjectName(QString::fromUtf8("tab_3"));
+        gridLayout_2 = new QGridLayout(tab_3);
+        gridLayout_2->setObjectName(QString::fromUtf8("gridLayout_2"));
+        Thx_4_choosing = new QLabel(tab_3);
+        Thx_4_choosing->setObjectName(QString::fromUtf8("Thx_4_choosing"));
+        Thx_4_choosing->setStyleSheet(QString::fromUtf8("font-family: 'Roboto Medium';\n"
+"font-size: 15px;"));
+        Thx_4_choosing->setTextFormat(Qt::PlainText);
+        Thx_4_choosing->setAlignment(Qt::AlignCenter);
+        Thx_4_choosing->setWordWrap(true);
+
+        gridLayout_2->addWidget(Thx_4_choosing, 0, 0, 1, 1);
+
+        tabWidget->addTab(tab_3, QString());
 
         horizontalLayout_2->addWidget(tabWidget);
 
@@ -296,7 +321,7 @@ public:
 
         retranslateUi(Cross_and_nulls);
 
-        tabWidget->setCurrentIndex(0);
+        tabWidget->setCurrentIndex(1);
 
 
         QMetaObject::connectSlotsByName(Cross_and_nulls);
@@ -321,8 +346,10 @@ public:
         GameButton_0_0->setText(QString());
         GameButton_2_0->setText(QString());
         tabWidget->setTabText(tabWidget->indexOf(tab), QCoreApplication::translate("Cross_and_nulls", "\320\230\320\263\321\200\320\260", nullptr));
-        about_game_text->setText(QCoreApplication::translate("Cross_and_nulls", "\320\237\321\200\320\260\320\262\320\270\320\273\320\260 \320\270\320\263\321\200\321\213:                                                     \320\222 \320\264\320\260\320\275\320\275\320\276\320\271 \320\270\320\263\321\200\320\265 \320\265\321\201\321\202\321\214 2 \320\272\320\276\320\274\320\260\320\275\320\264\321\213: \320\272\321\200\320\265\321\201\321\202\320\270\320\272\320\270 \320\270 \320\275\320\276\320\273\320\270\320\272\320\270. \320\241\320\274\321\213\321\201\320\273 \320\262 \321\202\320\276\320\274, \321\207\321\202\320\276\320\261\321\213 \320\276\320\264\320\275\320\260 \320\270\320\267 \320\272\320\276\320\274\320\274\320\260\320\275\320\264 \320\267\320\260\320\275\321\217\320\273\320\260 \321\202\321\200\320\270 \320\277\320\276\320\273\321\217 \320\262 \321\200\321\217\320\264 \320\270\320\273\320\270 \320\262 \320\264\320\270\320\260\320\263\320\276\320\275\320\260\320\273\321\214", nullptr));
+        about_game_text->setText(QCoreApplication::translate("Cross_and_nulls", "\320\237\321\200\320\260\320\262\320\270\320\273\320\260 \320\270\320\263\321\200\321\213: \320\222 \320\264\320\260\320\275\320\275\320\276\320\271 \320\270\320\263\321\200\320\265 \320\265\321\201\321\202\321\214 2 \320\272\320\276\320\274\320\260\320\275\320\264\321\213: \320\272\321\200\320\265\321\201\321\202\320\270\320\272\320\270 \320\270 \320\275\320\276\320\273\320\270\320\272\320\270. \320\241\320\274\321\213\321\201\320\273 \320\262 \321\202\320\276\320\274, \321\207\321\202\320\276\320\261\321\213 \320\276\320\264\320\275\320\260 \320\270\320\267 \320\272\320\276\320\274\320\274\320\260\320\275\320\264 \320\267\320\260\320\275\321\217\320\273\320\260 \321\202\321\200\320\270 \320\277\320\276\320\273\321\217 \320\262 \321\200\321\217\320\264 \320\270\320\273\320\270 \320\262 \320\264\320\270\320\260\320\263\320\276\320\275\320\260\320\273\321\214", nullptr));
         tabWidget->setTabText(tabWidget->indexOf(tab_2), QCoreApplication::translate("Cross_and_nulls", "\320\236\320\261 \320\270\320\263\321\200\320\265", nullptr));
+        Thx_4_choosing->setText(QCoreApplication::translate("Cross_and_nulls", "\320\234\321\213 \321\200\320\260\320\264\321\213, \321\207\321\202\320\276 \320\262\321\213 \321\200\320\265\321\210\320\270\320\273\320\270 \320\276\321\202\320\272\321\200\321\213\321\202\321\214 \321\215\321\202\320\276 \321\202\320\262\320\276\321\200\320\265\320\275\320\270\321\217 \320\263\320\276\321\201\320\277\320\276\320\264\320\260 \320\220\320\273\320\273\320\260\321\205\320\260. \320\235\320\260\320\264\320\265\321\216\321\201\321\214 \320\262\320\260\320\274 \320\277\320\276\320\275\321\200\320\260\320\262\320\270\321\202\321\201\321\217 \321\215\321\202\320\276\321\202 \321\201\320\270\320\274\320\274\321\203\320\273\321\217\321\202\320\276\321\200 \320\270\320\263\321\200\321\213, \320\270\320\261\320\276 \320\275\320\260\320\267\320\262\320\260\321\202\321\214 \321\215\321\202\320\276 \320\270\320\263\321\200\320\276\320\271 \320\274\320\276\320\266\320\265\321\202 \320\273\320\270\321\210\321\214 \321\201\320\273\320\265\320\277\320\276\320\271", nullptr));
+        tabWidget->setTabText(tabWidget->indexOf(tab_3), QCoreApplication::translate("Cross_and_nulls", "\320\241\321\202\321\200\320\260\320\275\320\270\321\206\320\260", nullptr));
     } // retranslateUi
 
 };
