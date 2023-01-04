@@ -69,6 +69,21 @@
        </spacer>
       </item>
       <item>
+       <widget class="QLabel" name="Area_info">
+        <property name="font">
+         <font>
+          <family>Roboto Medium</family>
+         </font>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
        <widget class="QLabel" name="Game_label">
         <property name="maximumSize">
          <size>
@@ -571,7 +586,7 @@ font-size: 15px;</string>
      <x>0</x>
      <y>0</y>
      <width>750</width>
-     <height>26</height>
+     <height>22</height>
     </rect>
    </property>
   </widget>

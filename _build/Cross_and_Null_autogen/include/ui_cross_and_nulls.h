@@ -34,6 +34,7 @@ public:
     QSpacerItem *horizontalSpacer_2;
     QVBoxLayout *verticalLayout;
     QSpacerItem *verticalSpacer_2;
+    QLabel *Area_info;
     QLabel *Game_label;
     QLabel *Label_result;
     QHBoxLayout *horizontalLayout;
@@ -91,6 +92,15 @@ public:
 
         verticalLayout->addItem(verticalSpacer_2);
 
+        Area_info = new QLabel(centralwidget);
+        Area_info->setObjectName(QString::fromUtf8("Area_info"));
+        QFont font;
+        font.setFamilies({QString::fromUtf8("Roboto Medium")});
+        Area_info->setFont(font);
+        Area_info->setAlignment(Qt::AlignCenter);
+
+        verticalLayout->addWidget(Area_info);
+
         Game_label = new QLabel(centralwidget);
         Game_label->setObjectName(QString::fromUtf8("Game_label"));
         Game_label->setMaximumSize(QSize(16777215, 16777215));
@@ -107,8 +117,6 @@ public:
         sizePolicy.setHeightForWidth(Label_result->sizePolicy().hasHeightForWidth());
         Label_result->setSizePolicy(sizePolicy);
         Label_result->setMinimumSize(QSize(0, 30));
-        QFont font;
-        font.setFamilies({QString::fromUtf8("Roboto Medium")});
         Label_result->setFont(font);
         Label_result->setStyleSheet(QString::fromUtf8("\n"
 "border-radius: 5px;\n"
@@ -313,7 +321,7 @@ public:
         Cross_and_nulls->setCentralWidget(centralwidget);
         menubar = new QMenuBar(Cross_and_nulls);
         menubar->setObjectName(QString::fromUtf8("menubar"));
-        menubar->setGeometry(QRect(0, 0, 750, 26));
+        menubar->setGeometry(QRect(0, 0, 750, 22));
         Cross_and_nulls->setMenuBar(menubar);
         statusbar = new QStatusBar(Cross_and_nulls);
         statusbar->setObjectName(QString::fromUtf8("statusbar"));
@@ -330,6 +338,7 @@ public:
     void retranslateUi(QMainWindow *Cross_and_nulls)
     {
         Cross_and_nulls->setWindowTitle(QCoreApplication::translate("Cross_and_nulls", "\320\232\321\200\320\265\321\201\321\202\320\270\320\272\320\270/\320\235\320\276\320\273\320\270\320\272\320\270", nullptr));
+        Area_info->setText(QString());
         Game_label->setText(QString());
         Label_result->setText(QString());
         Button_selectSide_Left->setText(QString());

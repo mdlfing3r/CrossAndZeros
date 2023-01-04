@@ -203,12 +203,12 @@ public:
     }
 
 
-    static QString GetStyle_Button(char state, char *side )// r - regular state, w - win state, l - loose state
+    static QString GetStyle_Button(char state, char side )// r - regular state, w - win state, l - loose state
     {
         QString ans;
         //side = '0';
 
-        switch(*side)
+        switch(side)
         {
             case '0':
                     switch(state)
@@ -229,7 +229,7 @@ public:
             case 'x':
                     switch(state)
                     {
-                        case 'r': ans = GetStyle_Zeroes_Button_regular(); //o - Loose state of x
+                        case 'r': ans = GetStyle_Crossed_Button_regular(); //o - Loose state of x
                                   break;
 
                         case 'w': ans =  GetStyle_Crossed_Button_isWinner(); //O - Win state of X
